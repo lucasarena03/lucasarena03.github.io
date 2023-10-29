@@ -16,11 +16,6 @@ const Footer = () => {
               Lucas Arena
             </a>
             <br/>
-            Clone idea from{" "}
-            <a href="https://themeforest.net/user/tavonline" target="_blank_">
-              Travonline
-            </a>
-            .
           </Typography>
       </div>
     </div>

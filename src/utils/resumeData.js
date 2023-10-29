@@ -12,26 +12,17 @@ import sword from "../assets/images/sword.png";
 import runescapeGold from "../assets/images/runescapeGold.jpg";
 import cppScape from "../assets/images/cppScape.png";
 import cppScape2 from "../assets/images/cppScape2.png";
+import gptracker from "../assets/images/gptracker.png";
 
 export default {
   name: "Lucas Arena",
   title: "Software Enginner Student",
   birthday: "24th January 2003",
   email: "lucasa4585@gmail.com",
-  address: "1120 19th St Sw",
+  address: "1120 19th St Sw Naples, FL",
   phone: "239-776-2999",
 
   socials: {
-    Facebook: {
-      link: "https://www.facebook.com",
-      text: "MyFacebook",
-      icon: <FacebookIcon />,
-    },
-    Twitter: {
-      link: "https://www.twitter.com",
-      text: "MyTwitter",
-      icon: <TwitterIcon />,
-    },
     LinkedIn: {
       link: "https://www.linkedin.com/in/lucas-arena-0a9239249/",
       text: "MyLinkedIn",
@@ -111,7 +102,7 @@ export default {
     {
       tag: "Python",
       image: runescapeGold,
-      exampleImage: sword,
+      exampleImage: gptracker,
       title: "Runescape Gold Tracker",
       caption: "Python Hash Table Project",
       description: "In my Python project, I developed a RuneScape GP tracker using hash tables, allowing players to efficiently keep track of their in-game wealth. With this tool, users can easily monitor their gold pieces (GP) balance, track transactions, and gain valuable insights into their financial progress within the game.",

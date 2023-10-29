@@ -37,6 +37,15 @@
     }
 }
 
+/* Move resume and portfolio under the header */
+@media (max-width: 991px) {
+    .header {
+        margin-left: 0px;
+        margin-bottom: 0px;
+        border-radius: 0px;
+    }
+}
+
 .container_shadow {
     box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.13);
     -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.13);

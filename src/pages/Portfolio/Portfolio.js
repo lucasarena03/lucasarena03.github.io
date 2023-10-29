@@ -27,18 +27,14 @@ const Portfolio = () => {
   };
 
   return (
-    <Container>
+    <Container  sx={{backgroundColor: "white"}}>
       <Grid container>
-        <Grid item xs={12} sm={12} md={4} lg={3}>
+        <Grid item xs={12} sm={12} md={4} lg={3} sx={{mx: 3}}>
           <Profile />
         </Grid>
 
         <Grid item xs>
           <Header />
-          <Grid item className="section_title" xs={12}>
-            <span></span>
-            <h6 className="section_title_text">Portfolio</h6>
-          </Grid>
           {/* Tabs */}
           <Grid item xs={12}>
             <Tabs

@@ -72,3 +72,7 @@
     font-size: 30px;
 }
 /* End of Dialog */
+
+.section_title_text {
+    border-bottom: 2px solid yellow;
+  }

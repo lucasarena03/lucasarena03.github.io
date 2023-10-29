@@ -28,7 +28,7 @@ const Header = (props) => {
   const pathName = useLocation().pathname;
 
   return (
-    <Navbar expand="lg" sticky="top" className="header">
+    <Navbar expand="lg" sticky="top" className="header" sx={{ml: 0}}>
       {/* Home Link */}
       <Nav.Link as={NavLink} to="/" className="header_navlink">
         <Navbar.Brand className="header_home">
@@ -70,7 +70,7 @@ const Header = (props) => {
           ))}
           <Button
             variant="outline-primary"
-            href="https://github.com/your-username/your-repository"
+            href="https://github.com/lucasarena03/Portfolio/tree/master"
             target="_blank"
           >
             Source Code
